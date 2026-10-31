@@ -97,13 +97,13 @@ RSS-Feeds/
 
 | Previous Reddit topic | Lemmy community | Feed |
 |:--|:--|:--|
-| Game development | `!gamedev@programming.dev` | [RSS](https://programming.dev/feeds/c/gamedev.xml?sort=New) |
-| Godot | `!godot@programming.dev` | [RSS](https://programming.dev/feeds/c/godot.xml?sort=New) |
-| Minecraft | `!minecraft@lemmy.world` | [RSS](https://lemmy.world/feeds/c/minecraft.xml?sort=New) |
-| Linux gaming | `!linux_gaming@lemmy.world` | [RSS](https://lemmy.world/feeds/c/linux_gaming.xml?sort=New) |
-| Space | `!space@lemmy.ml` | [RSS](https://lemmy.ml/feeds/c/space.xml?sort=New) |
-| Pixel art / Aseprite | `!pixelart@retrolemmy.com` | [RSS](https://retrolemmy.com/feeds/c/pixelart.xml?sort=New) |
-| Self-hosting / homelab | `!selfhosted@lemmy.world` | [RSS](https://lemmy.world/feeds/c/selfhosted.xml?sort=New) |
+| Game development | `!gamedev@programming.dev` | [RSS](https://programming.dev/feeds/c/gamedev.xml?sort=Hot) |
+| Godot | `!godot@programming.dev` | [RSS](https://programming.dev/feeds/c/godot.xml?sort=Hot) |
+| Minecraft | `!minecraft@lemmy.world` | [RSS](https://lemmy.world/feeds/c/minecraft.xml?sort=Hot) |
+| Linux gaming | `!linux_gaming@lemmy.world` | [RSS](https://lemmy.world/feeds/c/linux_gaming.xml?sort=Hot) |
+| Space | `!space@lemmy.ml` | [RSS](https://lemmy.ml/feeds/c/space.xml?sort=Hot) |
+| Pixel art / Aseprite | `!pixelart@retrolemmy.com` | [RSS](https://retrolemmy.com/feeds/c/pixelart.xml?sort=Hot) |
+| Self-hosting / homelab | `!selfhosted@lemmy.world` | [RSS](https://lemmy.world/feeds/c/selfhosted.xml?sort=Hot) |
 
 The Aseprite and homelab topics do not currently have sufficiently active dedicated Lemmy counterparts, so they are covered by the broader pixel-art and self-hosting communities rather than by low-activity feeds.
 
@@ -112,7 +112,7 @@ The Aseprite and homelab topics do not currently have sufficiently active dedica
 - The individual category OPML files are the sources to use for dynamic categories.
 - When a category's OPML file is updated on the repository's `main` branch, its Raw URL stays the same; FreshRSS can retrieve the updated document when it refreshes that dynamic source.
 - Feed availability and publisher URLs can change over time. If a publisher retires or moves a feed, the relevant OPML file will need updating.
-- **Community feeds use Lemmy's native RSS:** the Reddit community subscriptions have been replaced with direct Lemmy community feeds sorted by newest posts. This avoids Reddit's RSS shutdown and does not rely on a third-party RSS converter.
+- **Community feeds use Lemmy's native RSS:** the Reddit community subscriptions have been replaced with direct Lemmy community feeds sorted by Hot (popular and currently trending) posts. This avoids Reddit's RSS shutdown and does not rely on a third-party RSS converter.
 - **Activity matters:** community choices were checked for recent posts. No active, dedicated Lemmy counterpart was found for Aseprite or homelab at the time of migration. Pixel Art covers general pixel-art work, including Aseprite-made art; the active self-hosting community also covers home servers and homelab projects. These are broader substitutes rather than exact one-to-one matches.
 - Category names are intentionally unnumbered.
 
