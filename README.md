@@ -98,6 +98,7 @@ RSS-Feeds/
 - The individual category OPML files are the sources to use for dynamic categories.
 - When a category's OPML file is updated on the repository's `main` branch, its Raw URL stays the same; FreshRSS can retrieve the updated document when it refreshes that dynamic source.
 - Feed availability and publisher URLs can change over time. If a publisher retires or moves a feed, the relevant OPML file will need updating.
+- **Reddit feeds are temporary:** Reddit has announced that public RSS feeds will be discontinued on **13 November 2026**. The subreddit URLs currently use the `/new/.rss` endpoint, but they will not remain a supported source after that date. Replace them with alternative community sources (such as equivalent Lemmy communities) if you want those topics to remain in the collection.
 - Category names are intentionally unnumbered.
 
 ---
